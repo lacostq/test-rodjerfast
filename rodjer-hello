@@ -1,0 +1,7 @@
+git init
+echo "# hello-tea" > README.md
+git add README.md
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/lacostq/test-rodjerfast.git
+git push -u origin main
